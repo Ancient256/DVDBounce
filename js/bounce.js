@@ -1,19 +1,19 @@
-let speed = 5;
-let scale = 0.15; 
+let speed = 6;
+let scale = 0.17; 
 let canvas;
 let ctx;
 let logoColor;
 
 let dvd = {
     x: 800,
-    y: 800,
+    y: 600,
     xspeed: 5,
     yspeed: 5,
     img: new Image()
 };
 
 (function main(){
-    canvas = document.getElementById("tv-screen");
+    canvas = document.getElementById("monitor");
     ctx = canvas.getContext("2d");
     dvd.img.src = 'dvd-logo.png';
 
